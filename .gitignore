@@ -209,5 +209,7 @@ network-configs/
 hardhat.config.js
 test/
 DEPLOYMENT_GUIDE.md
+package-lock.json
+scripts/
 
 SECURITY*
