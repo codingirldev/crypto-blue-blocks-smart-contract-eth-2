@@ -1,0 +1,208 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Environment variables (CRITICAL - contains private keys)
+.env
+.env.local
+.env.production
+.env.test
+.env.development
+.env.staging
+
+# Hardhat build artifacts
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Test coverage
+coverage/
+coverage.json
+.nyc_output/
+
+# Deployment artifacts
+deployments/
+deployments.json
+deployment-*.json
+*.deployment.json
+
+# Contract verification files
+verification/
+*.verification.json
+
+# Gas reports
+gas-report.txt
+gas-report.json
+
+# Test reports
+test-results/
+test-reports/
+*.test.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+coverage.json
+
+# nyc test coverage
+.nyc_output/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache/
+.parcel-cache/
+
+# next.js build output
+.next/
+
+# nuxt.js build output
+.nuxt/
+
+# vuepress build output
+.vuepress/dist/
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Blockchain specific
+# Ganache database
+ganache-db/
+
+# Local blockchain data
+.local/
+blockchain-data/
+
+# Contract addresses and ABIs (if generated)
+addresses.json
+abis/
+contract-addresses.json
+
+# Private keys and wallets (NEVER commit these)
+*.key
+*.wallet
+*.pem
+*.p12
+*.pfx
+keystore/
+wallets/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Lock files (optional - some teams prefer to commit these)
+# package-lock.json
+# yarn.lock
+
+# Build outputs
+build/
+dist/
+out/
+
+# Documentation build
+docs/_build/
+site/
+
+# Python (if using Python tools)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Solidity specific
+# Compiled contracts (already covered by artifacts/)
+# *.sol.bak
+# *.sol.old
+
+# Security and sensitive files
+secrets/
+.secrets/
+*.secret
+*.private
+private-keys/
+mnemonics/
+seed-phrases/
+
+# Deployment scripts output
+deploy-output/
+deployment-logs/
+
+# Gas optimization reports
+gas-optimization/
+gas-analysis/
+
+# Contract interaction logs
+interaction-logs/
+transaction-logs/
+
+# Network specific files
+networks/
+network-configs/
+
+SECURITY*
