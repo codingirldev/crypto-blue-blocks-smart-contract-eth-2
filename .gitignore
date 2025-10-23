@@ -205,4 +205,9 @@ transaction-logs/
 networks/
 network-configs/
 
+# Files to keep local but not in repo
+hardhat.config.js
+test/
+DEPLOYMENT_GUIDE.md
+
 SECURITY*
